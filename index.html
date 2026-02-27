@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>다솜에스앤씨 HR 시스템</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-wrapper">
+    <div class="auth-card">
+      <h1 class="app-title">(주)다솜에스앤씨 인사관리 시스템</h1>
+      <h2 class="auth-title">로그인</h2>
+
+      <form id="login-form" class="auth-form">
+        <div class="form-group">
+          <label for="login-id">사원 ID</label>
+          <input
+            type="text"
+            id="login-id"
+            name="login-id"
+            autocomplete="username"
+            required
+            placeholder="사원 번호 또는 ID"
+          />
+        </div>
+        <div class="form-group">
+          <label for="login-password">비밀번호</label>
+          <input
+            type="password"
+            id="login-password"
+            name="login-password"
+            autocomplete="current-password"
+            required
+            placeholder="비밀번호"
+          />
+        </div>
+
+        <div id="login-message" class="form-message" aria-live="polite"></div>
+
+        <button type="submit" class="btn primary-btn">로그인</button>
+      </form>
+
+      <div class="auth-footer">
+        <span>아직 사원 등록이 안 되셨나요?</span>
+        <a href="register.html">사원등록 바로가기</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="supabaseClient.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>다솜에스앤씨 HR 시스템</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-wrapper">
+    <div class="auth-card">
+      <h1 class="app-title">(주)다솜에스앤씨 인사관리 시스템</h1>
+      <h2 class="auth-title">로그인</h2>
+
+      <form id="login-form" class="auth-form">
+        <div class="form-group">
+          <label for="login-id">사원 ID</label>
+          <input
+            type="text"
+            id="login-id"
+            name="login-id"
+            autocomplete="username"
+            required
+            placeholder="사원 번호 또는 ID"
+          />
+        </div>
+        <div class="form-group">
+          <label for="login-password">비밀번호</label>
+          <input
+            type="password"
+            id="login-password"
+            name="login-password"
+            autocomplete="current-password"
+            required
+            placeholder="비밀번호"
+          />
+        </div>
+
+        <div id="login-message" class="form-message" aria-live="polite"></div>
+
+        <button type="submit" class="btn primary-btn">로그인</button>
+      </form>
+
+      <div class="auth-footer">
+        <span>아직 사원 등록이 안 되셨나요?</span>
+        <a href="register.html">사원등록 바로가기</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="supabaseClient.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
+

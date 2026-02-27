@@ -1,0 +1,14 @@
+env.txt
+node_modules/
+dist/
+build/
+.DS_Store
+Thumbs.db
+
+env.txt
+node_modules/
+dist/
+build/
+.DS_Store
+Thumbs.db
+
